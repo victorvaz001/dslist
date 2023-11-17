@@ -26,7 +26,6 @@ public class GameService {
 		return new GameDTO(result); /*Convertendo para DTO*/
 	}
 	
-	@Transactional(readOnly = true)
 	public List<GameMinDTO> findAll(){
 				
 		List<Game> result = gameRespository.findAll();
