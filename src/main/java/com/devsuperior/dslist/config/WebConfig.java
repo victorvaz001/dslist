@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig {
 
 	/*Classe para configurar o cors(do application.properties) do backend, para configurar algum endereço(url) na web*/
-	pelo 
+	 
 	
 	@Value("${cors.origins}")
 	private String corsOrigins;
